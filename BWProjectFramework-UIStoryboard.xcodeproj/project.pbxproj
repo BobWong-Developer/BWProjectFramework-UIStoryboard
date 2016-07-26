@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0597E519BE087B960A5CE7BB /* libPods-BWProjectFramework-UIStoryboardTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F600A3C3C19572F1883897EC /* libPods-BWProjectFramework-UIStoryboardTests.a */; };
+		8D85DBA8EBF485643AE7C28E /* libPods-BWProjectFramework-UIStoryboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E80B3ABF8DCE93093D9A0E07 /* libPods-BWProjectFramework-UIStoryboard.a */; };
+		99BE43733CC37BC3CFCFC4C4 /* libPods-BWProjectFramework-UIStoryboardUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CAE61CDFEFC5B45637447B /* libPods-BWProjectFramework-UIStoryboardUITests.a */; };
+		B44DE7E41D470109004C946E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE7E31D470109004C946E /* main.m */; };
+		B44DE7E71D470109004C946E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE7E61D470109004C946E /* AppDelegate.m */; };
+		B44DE7EA1D470109004C946E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE7E91D470109004C946E /* ViewController.m */; };
+		B44DE7ED1D470109004C946E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44DE7EB1D470109004C946E /* Main.storyboard */; };
+		B44DE7EF1D470109004C946E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44DE7EE1D470109004C946E /* Assets.xcassets */; };
+		B44DE7F21D470109004C946E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44DE7F01D470109004C946E /* LaunchScreen.storyboard */; };
+		B44DE7FD1D470109004C946E /* BWProjectFramework_UIStoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE7FC1D470109004C946E /* BWProjectFramework_UIStoryboardTests.m */; };
+		B44DE8081D470109004C946E /* BWProjectFramework_UIStoryboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8071D470109004C946E /* BWProjectFramework_UIStoryboardUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B44DE7F91D470109004C946E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B44DE7D71D470109004C946E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B44DE7DE1D470109004C946E;
+			remoteInfo = "BWProjectFramework-UIStoryboard";
+		};
+		B44DE8041D470109004C946E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B44DE7D71D470109004C946E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B44DE7DE1D470109004C946E;
+			remoteInfo = "BWProjectFramework-UIStoryboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02CAE61CDFEFC5B45637447B /* libPods-BWProjectFramework-UIStoryboardUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWProjectFramework-UIStoryboardUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBA6739305C29FDEE13E7A4 /* Pods-BWProjectFramework-UIStoryboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFramework-UIStoryboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFramework-UIStoryboard/Pods-BWProjectFramework-UIStoryboard.debug.xcconfig"; sourceTree = "<group>"; };
+		3DDAB7871DB2660C662E275E /* Pods-BWProjectFramework-UIStoryboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFramework-UIStoryboardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFramework-UIStoryboardTests/Pods-BWProjectFramework-UIStoryboardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50826AAB3091C43060DFEFB4 /* Pods-BWProjectFramework-UIStoryboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFramework-UIStoryboardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFramework-UIStoryboardTests/Pods-BWProjectFramework-UIStoryboardTests.release.xcconfig"; sourceTree = "<group>"; };
+		56CEC214F7F42E2247CF46D5 /* Pods-BWProjectFramework-UIStoryboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFramework-UIStoryboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFramework-UIStoryboard/Pods-BWProjectFramework-UIStoryboard.release.xcconfig"; sourceTree = "<group>"; };
+		B44DE7DF1D470109004C946E /* BWProjectFramework-UIStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BWProjectFramework-UIStoryboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44DE7E31D470109004C946E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B44DE7E51D470109004C946E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B44DE7E61D470109004C946E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B44DE7E81D470109004C946E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B44DE7E91D470109004C946E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B44DE7EC1D470109004C946E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B44DE7EE1D470109004C946E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B44DE7F11D470109004C946E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B44DE7F31D470109004C946E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44DE7F81D470109004C946E /* BWProjectFramework-UIStoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BWProjectFramework-UIStoryboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44DE7FC1D470109004C946E /* BWProjectFramework_UIStoryboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWProjectFramework_UIStoryboardTests.m; sourceTree = "<group>"; };
+		B44DE7FE1D470109004C946E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44DE8031D470109004C946E /* BWProjectFramework-UIStoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BWProjectFramework-UIStoryboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44DE8071D470109004C946E /* BWProjectFramework_UIStoryboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWProjectFramework_UIStoryboardUITests.m; sourceTree = "<group>"; };
+		B44DE8091D470109004C946E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6FDBA3E9D3D21BFDE9E94BD /* Pods-BWProjectFramework-UIStoryboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFramework-UIStoryboardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFramework-UIStoryboardUITests/Pods-BWProjectFramework-UIStoryboardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E80B3ABF8DCE93093D9A0E07 /* libPods-BWProjectFramework-UIStoryboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWProjectFramework-UIStoryboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F459578CB78C5161651A935A /* Pods-BWProjectFramework-UIStoryboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFramework-UIStoryboardUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFramework-UIStoryboardUITests/Pods-BWProjectFramework-UIStoryboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F600A3C3C19572F1883897EC /* libPods-BWProjectFramework-UIStoryboardTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWProjectFramework-UIStoryboardTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B44DE7DC1D470109004C946E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D85DBA8EBF485643AE7C28E /* libPods-BWProjectFramework-UIStoryboard.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44DE7F51D470109004C946E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0597E519BE087B960A5CE7BB /* libPods-BWProjectFramework-UIStoryboardTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44DE8001D470109004C946E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99BE43733CC37BC3CFCFC4C4 /* libPods-BWProjectFramework-UIStoryboardUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		785AC48CC8A83DD2DE9028C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DBA6739305C29FDEE13E7A4 /* Pods-BWProjectFramework-UIStoryboard.debug.xcconfig */,
+				56CEC214F7F42E2247CF46D5 /* Pods-BWProjectFramework-UIStoryboard.release.xcconfig */,
+				3DDAB7871DB2660C662E275E /* Pods-BWProjectFramework-UIStoryboardTests.debug.xcconfig */,
+				50826AAB3091C43060DFEFB4 /* Pods-BWProjectFramework-UIStoryboardTests.release.xcconfig */,
+				F459578CB78C5161651A935A /* Pods-BWProjectFramework-UIStoryboardUITests.debug.xcconfig */,
+				E6FDBA3E9D3D21BFDE9E94BD /* Pods-BWProjectFramework-UIStoryboardUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84FFBDEB2B922A1AE057738A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E80B3ABF8DCE93093D9A0E07 /* libPods-BWProjectFramework-UIStoryboard.a */,
+				F600A3C3C19572F1883897EC /* libPods-BWProjectFramework-UIStoryboardTests.a */,
+				02CAE61CDFEFC5B45637447B /* libPods-BWProjectFramework-UIStoryboardUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B44DE7D61D470109004C946E = {
+			isa = PBXGroup;
+			children = (
+				B44DE7E11D470109004C946E /* BWProjectFramework-UIStoryboard */,
+				B44DE7FB1D470109004C946E /* BWProjectFramework-UIStoryboardTests */,
+				B44DE8061D470109004C946E /* BWProjectFramework-UIStoryboardUITests */,
+				B44DE7E01D470109004C946E /* Products */,
+				785AC48CC8A83DD2DE9028C4 /* Pods */,
+				84FFBDEB2B922A1AE057738A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B44DE7E01D470109004C946E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE7DF1D470109004C946E /* BWProjectFramework-UIStoryboard.app */,
+				B44DE7F81D470109004C946E /* BWProjectFramework-UIStoryboardTests.xctest */,
+				B44DE8031D470109004C946E /* BWProjectFramework-UIStoryboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B44DE7E11D470109004C946E /* BWProjectFramework-UIStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE7E51D470109004C946E /* AppDelegate.h */,
+				B44DE7E61D470109004C946E /* AppDelegate.m */,
+				B44DE7E81D470109004C946E /* ViewController.h */,
+				B44DE7E91D470109004C946E /* ViewController.m */,
+				B44DE7EB1D470109004C946E /* Main.storyboard */,
+				B44DE7EE1D470109004C946E /* Assets.xcassets */,
+				B44DE7F01D470109004C946E /* LaunchScreen.storyboard */,
+				B44DE7F31D470109004C946E /* Info.plist */,
+				B44DE7E21D470109004C946E /* Supporting Files */,
+			);
+			path = "BWProjectFramework-UIStoryboard";
+			sourceTree = "<group>";
+		};
+		B44DE7E21D470109004C946E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE7E31D470109004C946E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B44DE7FB1D470109004C946E /* BWProjectFramework-UIStoryboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE7FC1D470109004C946E /* BWProjectFramework_UIStoryboardTests.m */,
+				B44DE7FE1D470109004C946E /* Info.plist */,
+			);
+			path = "BWProjectFramework-UIStoryboardTests";
+			sourceTree = "<group>";
+		};
+		B44DE8061D470109004C946E /* BWProjectFramework-UIStoryboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE8071D470109004C946E /* BWProjectFramework_UIStoryboardUITests.m */,
+				B44DE8091D470109004C946E /* Info.plist */,
+			);
+			path = "BWProjectFramework-UIStoryboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B44DE7DE1D470109004C946E /* BWProjectFramework-UIStoryboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B44DE80C1D470109004C946E /* Build configuration list for PBXNativeTarget "BWProjectFramework-UIStoryboard" */;
+			buildPhases = (
+				0C8D5444773EF0B58BE70DED /* [CP] Check Pods Manifest.lock */,
+				B44DE7DB1D470109004C946E /* Sources */,
+				B44DE7DC1D470109004C946E /* Frameworks */,
+				B44DE7DD1D470109004C946E /* Resources */,
+				709CB0D816F08E8AC706574E /* [CP] Embed Pods Frameworks */,
+				DD166DAD108863229B5E2E54 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BWProjectFramework-UIStoryboard";
+			productName = "BWProjectFramework-UIStoryboard";
+			productReference = B44DE7DF1D470109004C946E /* BWProjectFramework-UIStoryboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B44DE7F71D470109004C946E /* BWProjectFramework-UIStoryboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B44DE80F1D470109004C946E /* Build configuration list for PBXNativeTarget "BWProjectFramework-UIStoryboardTests" */;
+			buildPhases = (
+				1283F2595771E17FC3940CC2 /* [CP] Check Pods Manifest.lock */,
+				B44DE7F41D470109004C946E /* Sources */,
+				B44DE7F51D470109004C946E /* Frameworks */,
+				B44DE7F61D470109004C946E /* Resources */,
+				1D8ACF0BE677BB11CFD898A2 /* [CP] Embed Pods Frameworks */,
+				45079C0BF7499BF0F915D513 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B44DE7FA1D470109004C946E /* PBXTargetDependency */,
+			);
+			name = "BWProjectFramework-UIStoryboardTests";
+			productName = "BWProjectFramework-UIStoryboardTests";
+			productReference = B44DE7F81D470109004C946E /* BWProjectFramework-UIStoryboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B44DE8021D470109004C946E /* BWProjectFramework-UIStoryboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B44DE8121D470109004C946E /* Build configuration list for PBXNativeTarget "BWProjectFramework-UIStoryboardUITests" */;
+			buildPhases = (
+				0C021D6DDAFDAC7818D442B8 /* [CP] Check Pods Manifest.lock */,
+				B44DE7FF1D470109004C946E /* Sources */,
+				B44DE8001D470109004C946E /* Frameworks */,
+				B44DE8011D470109004C946E /* Resources */,
+				A358EB6FCA8BBD8655C21EDF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B44DE8051D470109004C946E /* PBXTargetDependency */,
+			);
+			name = "BWProjectFramework-UIStoryboardUITests";
+			productName = "BWProjectFramework-UIStoryboardUITests";
+			productReference = B44DE8031D470109004C946E /* BWProjectFramework-UIStoryboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B44DE7D71D470109004C946E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BobWong;
+				TargetAttributes = {
+					B44DE7DE1D470109004C946E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B44DE7F71D470109004C946E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B44DE7DE1D470109004C946E;
+					};
+					B44DE8021D470109004C946E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B44DE7DE1D470109004C946E;
+					};
+				};
+			};
+			buildConfigurationList = B44DE7DA1D470109004C946E /* Build configuration list for PBXProject "BWProjectFramework-UIStoryboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B44DE7D61D470109004C946E;
+			productRefGroup = B44DE7E01D470109004C946E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B44DE7DE1D470109004C946E /* BWProjectFramework-UIStoryboard */,
+				B44DE7F71D470109004C946E /* BWProjectFramework-UIStoryboardTests */,
+				B44DE8021D470109004C946E /* BWProjectFramework-UIStoryboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B44DE7DD1D470109004C946E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44DE7F21D470109004C946E /* LaunchScreen.storyboard in Resources */,
+				B44DE7EF1D470109004C946E /* Assets.xcassets in Resources */,
+				B44DE7ED1D470109004C946E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44DE7F61D470109004C946E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44DE8011D470109004C946E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C021D6DDAFDAC7818D442B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0C8D5444773EF0B58BE70DED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1283F2595771E17FC3940CC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1D8ACF0BE677BB11CFD898A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWProjectFramework-UIStoryboardTests/Pods-BWProjectFramework-UIStoryboardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45079C0BF7499BF0F915D513 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWProjectFramework-UIStoryboardTests/Pods-BWProjectFramework-UIStoryboardTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		709CB0D816F08E8AC706574E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWProjectFramework-UIStoryboard/Pods-BWProjectFramework-UIStoryboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A358EB6FCA8BBD8655C21EDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWProjectFramework-UIStoryboardUITests/Pods-BWProjectFramework-UIStoryboardUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD166DAD108863229B5E2E54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWProjectFramework-UIStoryboard/Pods-BWProjectFramework-UIStoryboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B44DE7DB1D470109004C946E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44DE7EA1D470109004C946E /* ViewController.m in Sources */,
+				B44DE7E71D470109004C946E /* AppDelegate.m in Sources */,
+				B44DE7E41D470109004C946E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44DE7F41D470109004C946E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44DE7FD1D470109004C946E /* BWProjectFramework_UIStoryboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44DE7FF1D470109004C946E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44DE8081D470109004C946E /* BWProjectFramework_UIStoryboardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B44DE7FA1D470109004C946E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B44DE7DE1D470109004C946E /* BWProjectFramework-UIStoryboard */;
+			targetProxy = B44DE7F91D470109004C946E /* PBXContainerItemProxy */;
+		};
+		B44DE8051D470109004C946E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B44DE7DE1D470109004C946E /* BWProjectFramework-UIStoryboard */;
+			targetProxy = B44DE8041D470109004C946E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B44DE7EB1D470109004C946E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B44DE7EC1D470109004C946E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B44DE7F01D470109004C946E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B44DE7F11D470109004C946E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B44DE80A1D470109004C946E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B44DE80B1D470109004C946E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B44DE80D1D470109004C946E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBA6739305C29FDEE13E7A4 /* Pods-BWProjectFramework-UIStoryboard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BWProjectFramework-UIStoryboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bws.BWProjectFramework-UIStoryboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B44DE80E1D470109004C946E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56CEC214F7F42E2247CF46D5 /* Pods-BWProjectFramework-UIStoryboard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BWProjectFramework-UIStoryboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bws.BWProjectFramework-UIStoryboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B44DE8101D470109004C946E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DDAB7871DB2660C662E275E /* Pods-BWProjectFramework-UIStoryboardTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BWProjectFramework-UIStoryboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bws.BWProjectFramework-UIStoryboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWProjectFramework-UIStoryboard.app/BWProjectFramework-UIStoryboard";
+			};
+			name = Debug;
+		};
+		B44DE8111D470109004C946E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50826AAB3091C43060DFEFB4 /* Pods-BWProjectFramework-UIStoryboardTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BWProjectFramework-UIStoryboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bws.BWProjectFramework-UIStoryboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWProjectFramework-UIStoryboard.app/BWProjectFramework-UIStoryboard";
+			};
+			name = Release;
+		};
+		B44DE8131D470109004C946E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F459578CB78C5161651A935A /* Pods-BWProjectFramework-UIStoryboardUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "BWProjectFramework-UIStoryboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bws.BWProjectFramework-UIStoryboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BWProjectFramework-UIStoryboard";
+			};
+			name = Debug;
+		};
+		B44DE8141D470109004C946E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6FDBA3E9D3D21BFDE9E94BD /* Pods-BWProjectFramework-UIStoryboardUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "BWProjectFramework-UIStoryboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bws.BWProjectFramework-UIStoryboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BWProjectFramework-UIStoryboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B44DE7DA1D470109004C946E /* Build configuration list for PBXProject "BWProjectFramework-UIStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44DE80A1D470109004C946E /* Debug */,
+				B44DE80B1D470109004C946E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B44DE80C1D470109004C946E /* Build configuration list for PBXNativeTarget "BWProjectFramework-UIStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44DE80D1D470109004C946E /* Debug */,
+				B44DE80E1D470109004C946E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B44DE80F1D470109004C946E /* Build configuration list for PBXNativeTarget "BWProjectFramework-UIStoryboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44DE8101D470109004C946E /* Debug */,
+				B44DE8111D470109004C946E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B44DE8121D470109004C946E /* Build configuration list for PBXNativeTarget "BWProjectFramework-UIStoryboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44DE8131D470109004C946E /* Debug */,
+				B44DE8141D470109004C946E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B44DE7D71D470109004C946E /* Project object */;
+}
