@@ -10,9 +10,9 @@
 		0597E519BE087B960A5CE7BB /* libPods-BWProjectFramework-UIStoryboardTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F600A3C3C19572F1883897EC /* libPods-BWProjectFramework-UIStoryboardTests.a */; };
 		8D85DBA8EBF485643AE7C28E /* libPods-BWProjectFramework-UIStoryboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E80B3ABF8DCE93093D9A0E07 /* libPods-BWProjectFramework-UIStoryboard.a */; };
 		99BE43733CC37BC3CFCFC4C4 /* libPods-BWProjectFramework-UIStoryboardUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CAE61CDFEFC5B45637447B /* libPods-BWProjectFramework-UIStoryboardUITests.a */; };
+		B443E5271D4776AB002AB270 /* FunctionModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B443E5261D4776AB002AB270 /* FunctionModule.storyboard */; };
 		B44DE7E41D470109004C946E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE7E31D470109004C946E /* main.m */; };
 		B44DE7E71D470109004C946E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE7E61D470109004C946E /* AppDelegate.m */; };
-		B44DE7EA1D470109004C946E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE7E91D470109004C946E /* ViewController.m */; };
 		B44DE7ED1D470109004C946E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44DE7EB1D470109004C946E /* Main.storyboard */; };
 		B44DE7EF1D470109004C946E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44DE7EE1D470109004C946E /* Assets.xcassets */; };
 		B44DE7F21D470109004C946E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44DE7F01D470109004C946E /* LaunchScreen.storyboard */; };
@@ -43,12 +43,11 @@
 		3DDAB7871DB2660C662E275E /* Pods-BWProjectFramework-UIStoryboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFramework-UIStoryboardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFramework-UIStoryboardTests/Pods-BWProjectFramework-UIStoryboardTests.debug.xcconfig"; sourceTree = "<group>"; };
 		50826AAB3091C43060DFEFB4 /* Pods-BWProjectFramework-UIStoryboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFramework-UIStoryboardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFramework-UIStoryboardTests/Pods-BWProjectFramework-UIStoryboardTests.release.xcconfig"; sourceTree = "<group>"; };
 		56CEC214F7F42E2247CF46D5 /* Pods-BWProjectFramework-UIStoryboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFramework-UIStoryboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFramework-UIStoryboard/Pods-BWProjectFramework-UIStoryboard.release.xcconfig"; sourceTree = "<group>"; };
+		B443E5261D4776AB002AB270 /* FunctionModule.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FunctionModule.storyboard; sourceTree = "<group>"; };
 		B44DE7DF1D470109004C946E /* BWProjectFramework-UIStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BWProjectFramework-UIStoryboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44DE7E31D470109004C946E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B44DE7E51D470109004C946E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B44DE7E61D470109004C946E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B44DE7E81D470109004C946E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B44DE7E91D470109004C946E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B44DE7EC1D470109004C946E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B44DE7EE1D470109004C946E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B44DE7F11D470109004C946E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -143,12 +142,9 @@
 			children = (
 				B44DE7E51D470109004C946E /* AppDelegate.h */,
 				B44DE7E61D470109004C946E /* AppDelegate.m */,
-				B44DE7E81D470109004C946E /* ViewController.h */,
-				B44DE7E91D470109004C946E /* ViewController.m */,
 				B44DE7EB1D470109004C946E /* Main.storyboard */,
+				B443E5261D4776AB002AB270 /* FunctionModule.storyboard */,
 				B44DE7EE1D470109004C946E /* Assets.xcassets */,
-				B44DE7F01D470109004C946E /* LaunchScreen.storyboard */,
-				B44DE7F31D470109004C946E /* Info.plist */,
 				B44DE7E21D470109004C946E /* Supporting Files */,
 			);
 			path = "BWProjectFramework-UIStoryboard";
@@ -158,6 +154,8 @@
 			isa = PBXGroup;
 			children = (
 				B44DE7E31D470109004C946E /* main.m */,
+				B44DE7F31D470109004C946E /* Info.plist */,
+				B44DE7F01D470109004C946E /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -291,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B443E5271D4776AB002AB270 /* FunctionModule.storyboard in Resources */,
 				B44DE7F21D470109004C946E /* LaunchScreen.storyboard in Resources */,
 				B44DE7EF1D470109004C946E /* Assets.xcassets in Resources */,
 				B44DE7ED1D470109004C946E /* Main.storyboard in Resources */,
@@ -441,7 +440,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B44DE7EA1D470109004C946E /* ViewController.m in Sources */,
 				B44DE7E71D470109004C946E /* AppDelegate.m in Sources */,
 				B44DE7E41D470109004C946E /* main.m in Sources */,
 			);
