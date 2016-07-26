@@ -44,6 +44,7 @@
 		50826AAB3091C43060DFEFB4 /* Pods-BWProjectFramework-UIStoryboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFramework-UIStoryboardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFramework-UIStoryboardTests/Pods-BWProjectFramework-UIStoryboardTests.release.xcconfig"; sourceTree = "<group>"; };
 		56CEC214F7F42E2247CF46D5 /* Pods-BWProjectFramework-UIStoryboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFramework-UIStoryboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFramework-UIStoryboard/Pods-BWProjectFramework-UIStoryboard.release.xcconfig"; sourceTree = "<group>"; };
 		B443E5261D4776AB002AB270 /* FunctionModule.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FunctionModule.storyboard; sourceTree = "<group>"; };
+		B443E5281D477971002AB270 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		B44DE7DF1D470109004C946E /* BWProjectFramework-UIStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BWProjectFramework-UIStoryboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44DE7E31D470109004C946E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B44DE7E51D470109004C946E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -140,6 +141,7 @@
 		B44DE7E11D470109004C946E /* BWProjectFramework-UIStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				B443E5281D477971002AB270 /* README.md */,
 				B44DE7E51D470109004C946E /* AppDelegate.h */,
 				B44DE7E61D470109004C946E /* AppDelegate.m */,
 				B44DE7EB1D470109004C946E /* Main.storyboard */,
